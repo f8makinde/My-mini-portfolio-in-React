@@ -1,0 +1,260 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+h1{
+    font-size: 60px;
+    font-weight: 300;
+    margin: 0 40px;
+}
+h2{
+    border-top:  1px solid #C4C4C4;
+    border-bottom: 1px solid #C4C4C4;
+    font-size: 42px;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+h3{
+    font-size: 36px;
+    margin-bottom: 0;
+}
+.small-text{
+    font-size: 16px;
+    margin-top: 5px;
+}
+p{
+    margin: 0px 40px;
+
+}
+
+a:hover, a:active{
+    color: #131313;
+}
+.bold-text{
+    display: block;
+    font-weight: 900;
+    color: #99D930;
+    margin: 0;
+}
+h1 .bold-text{
+    font-size: 80px;
+}
+h2 .bold-text{
+    font-size: 60px;
+}
+.image{
+    width: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid white;
+}
+.intro{
+    background: #252525;
+    padding: 100px 0;
+    color: #FFf;
+    
+}
+.about-me{
+    background: #FFf;
+    padding: 100px 0;
+}
+.my-blog{
+    background: #252525;
+    padding: 100px 0;
+    color: #FFf;
+}
+.btn-links{
+    background: #99D930;
+    color: #252525;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-weight: 900;
+    display: inline-block;
+    margin-top: 25px;
+}
+.btn-links:hover,
+.btn-links:focus{
+    background: #252525;
+    color: #fff;
+}
+.my-blog .btn-links:hover,.btn-links:focus{
+    background: #fff;
+    color:#252525; 
+}
+time, .name{
+    color: #99D930;
+    font-weight: 900;
+}
+@media only screen and (max-width: 275px) {
+    .image{
+        width: 180px;
+    }
+    h1{
+        font-size: 30px;
+        font-weight: 300;
+        margin: 0 25px
+    }
+    p{
+        font-size: 14px;
+        margin: 0px 10px;
+    }
+    h1 .bold-text{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 18px;
+    }
+    h2 .bold-text{
+        font-size: 20px;
+    }
+    .btn-links{
+        padding: 10px 4px;
+        font-size: 14px;
+    }
+  }
+  @media only screen and (max-width: 220px) {
+    .image{
+        width: 150px;
+    }
+    h1{
+        font-size: 30px;
+        font-weight: 300;
+        margin-top: 0;
+    }
+    h1 .bold-text{
+        font-size: 40px;
+    }
+    h2 .bold-text{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    .btn-links{
+        padding: 10px 5px;
+        font-size: 16px;
+    }
+    h3{
+        font-size: 24px;
+    }
+    h2 .bold-text{
+        font-size: 30px;
+    }
+  }
+  @media only screen and (max-width: 170px) {
+    .image{
+        width: 100px;
+    }
+    .btn-links{
+        padding: 6px 2px;
+        font-size: 12px;
+    }
+  }
+  @media only screen and (max-width: 140px) {
+    h1 .bold-text{
+        font-size: 25px;
+    }
+    h2 .bold-text{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 25px;
+        font-weight: 300;
+        margin: 0 5px;
+    }
+    
+}
+  @media only screen and (max-width: 120px) {
+    .image{
+        width: 80px;
+    }
+    h1 .bold-text{
+        font-size: 30px;
+    }
+    h2 .bold-text{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 28px;
+        font-weight: 300;
+        margin-top: 0;
+    }
+    
+  }
+
+  @media only screen and (max-width: 115px) {
+    .image{
+        width: 50px;
+    }
+    h1{
+        font-size: 10px;
+        font-weight: 300;
+        margin-top: 0;
+    }
+    h1 .bold-text{
+        font-size: 10px;
+    }
+    h2{
+        font-size: 10px;
+    }
+     h2 .bold-text{
+        font-size: 12px;
+        font-weight: 500px;
+    }
+    p{
+        font-size: 8px;
+    }
+    
+     .btn-links{
+        padding: 10px 4px;
+        font-size: 10px;
+    }
+  }
+   @media only screen and (max-width: 90px) {
+    .image{
+        width: 30px;
+    }
+        h3{
+        font-size: 4px;
+    }
+    h1{
+        font-size: 6px;
+        font-weight: 100px;
+        margin-top: 0;
+    }
+    h1 .bold-text{
+        font-size: 6px;
+    }
+    h2{
+        font-size: 6px;
+    }
+     h2 .bold-text{
+        font-size: 6px;
+        font-weight: 200px;
+    }
+   
+    p{
+        font-size: 4px;
+    }
+   
+     .btn-links{
+        padding: 3px 2px;
+        font-size: 3px;
+    }
+      .small-text{
+           font-size: 4px
+       }
+      time, .name{
+    color: #99D930;
+    font-weight: 200;
+    font-size: 6px
+    }
+  }
